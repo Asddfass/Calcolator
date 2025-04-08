@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container-sm border border-5 d-flex flex-column">
+            <h1 class="text-center">ALI'S Calculator</h1>
+            
+                <input type="text" class="form-control" id="input-1">
+                <input type="text" class="form-control" id="input-2">
+            <div>
+                <select name="operations" id="operations" class="form-select">
+                    <option value="add">(+)</option>
+                    <option value="sub">(-)</option>
+                    <option value="div">(/)</option>
+                    <option value="multi">(*)</option>
+                </select>
+            </div>
+            <input type="text" class="form-control" id="result" disabled >
+            <button class="btn btn-outline-secondary d-flex" onclick="Calculate()">Calcualate</button>
+                
+            
+
+        </div>
+    </main>
+    <script src="jscript.js"></script>
+</body>
+</html>
