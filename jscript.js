@@ -8,7 +8,7 @@ function Calculate()
     let none = true;
     if (isNaN(input1) || isNaN(input2))
     {
-        result = "Please input a number Enter a number";
+        result = "Please Enter a number";
         none = false;
     }
 
